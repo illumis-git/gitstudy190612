@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Chapter08.Ex11&apos; to &apos;Ex12&apos;&#x0D;&#x0A;- Original project: &apos;java201640123&apos;&#x0D;&#x0A;- Original element: &apos;Chapter08.Ex11&apos;&#x0D;&#x0A;- Renamed element: &apos;Chapter08.Ex12&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Ex11&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Chapter08{Ex11.java[Ex11" matchStrategy="1" name="Ex12" qualified="false" references="true" similarDeclarations="false" stamp="1555638331029" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,47 @@
+package Chapter11;
+
+public class ex29_30_31 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Pet myPet1 = new Pet("강아지", "움직", 8);
+		Pet myPet2 = new Pet("고양이", "움직", 13);
+		
+		System.out.println(myPet1.getName()+"가"+myPet1.getAction()+"입니다.");
+		System.out.println(myPet2.getName()+"가"+myPet2.getAction()+"입니다.");
+		System.out.println(myPet1.getName()+"는"+myPet1.getBir()+"개월입니다.");
+		System.out.println(myPet2.getName()+"는"+myPet2.getBir()+"개월입니다.");
+	}
+
+}
+
+class Pet{
+	private String name;
+	private String action;
+	private int bir;
+	
+	Pet(String name, String action, int bir){
+		this.name = name;
+		this.action = action;
+		this.bir = bir;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getName() {
+		return this.name;
+	}
+	public void setAction(String action) {
+		this.action = action;
+	}
+	public String getAction() {
+		return this.action;
+	}
+	public void setBir(int bir) {
+		this.bir = bir;
+	}
+	public int getBir() {
+		return this.bir;
+	}
+}

@@ -1,0 +1,13 @@
+14:03:29 **** Incremental Build of configuration Release for project Shortest_Path ****
+Info: Internal Builder is used for build
+gcc -o Shortest_Path.exe "src\\Shortest_Path.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+
+**** Build of configuration Debug for project te ****
+
+Nothing to build for project te
+12:51:50 **** Rebuild of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.c" 
+gcc -o test.exe test.o 
