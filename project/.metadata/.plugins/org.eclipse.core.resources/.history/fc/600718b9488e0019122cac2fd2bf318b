@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * @author user
+ *
+ */
+module java201640123 {
+	requires java.desktop;
+}
